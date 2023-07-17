@@ -17,7 +17,7 @@ const props = withDefaults(defineProps<Props>(),{
     
         <nav class="navbar navbar-expand-lg colorBg fixed-top">
   <div class="container-fluid">
-    <img v-if="props.showICon" src="@/assets/logo.svg" alt="vue logo" height="25" width="25"/>
+
     <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
