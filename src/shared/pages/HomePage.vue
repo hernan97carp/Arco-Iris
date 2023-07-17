@@ -65,7 +65,8 @@ Bienvenido a Arcoiris
                     <img class="card-img-top" src="../../assets/aire.jpg" alt="">
   
                     <div class="card-body">
-                        <h5 class="card-title">Instalacion de Aire Acondicionado</h5>
+                        <h5 class="card-title">Instalacion de 
+                            logoAire Acondicionado</h5>
                    
   
                         <a href="#" class="btn btn-outline-primary btn-sm">
@@ -120,9 +121,7 @@ Bienvenido a Arcoiris
             <div class="container__footer">
 
                 <div class="box__footer">
-                    <div class="logo">
-                        <img src="Images/logo-magtimus.png" alt="">
-                    </div>
+             
                     <div class="terms">
                     Brindamos servicios de reparacion y mantenminento de Heladeras, Aire Acondicionado y instalaciones Electricas desde 2017 en Argentina, Mendoza.
                     </div>
