@@ -62,19 +62,20 @@ Bienvenido a Arcoiris
             </div>
             <div class="col mb-4 mt-4">
                 <div class="card">
-                    <img class="card-img-top" src="../../assets/aire.jpg" alt="">
+                  
   
-                    <div class="card-body">
-                        <h5 class="card-title">Instalacion de 
-                            logoAire Acondicionado</h5>
+                
                    
   
                         <a href="#" class="btn btn-outline-primary btn-sm">
-                            Card link
-                        </a>
-                        <a href="#" class="btn btn-outline-secondary btn-sm">
-                            <i class="far fa-heart"></i></a>
+                          <img class="card-img-top" src="../../assets/aire.jpg" alt="">
+                           <div class="card-body">
+                        <h5 class="card-title">Instalacion de 
+                        Aire Acondicionado</h5>  
                     </div>
+                        </a>
+                    
+                  
                 </div>
             </div>
               <div class="col mb-4 mt-4">
@@ -302,7 +303,7 @@ nav ul li a{
 
 .bg_color{
     width: 100%;
-    height: 100%;
+    height: 70%;
     background: #2196f3;
     position: absolute;
     top: 0;
@@ -375,10 +376,10 @@ place-items: center;
 .container__cover{
     max-width: 1200px;
     margin: auto;
-    padding: 20px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
-   
+  
 
 }
 
@@ -387,6 +388,7 @@ place-items: center;
     max-width: 400px;
     margin-top: 40px;
     z-index: 2;
+    
 }
 
 .cover h1{
@@ -549,6 +551,7 @@ place-items: center;
     }
     
 }
+
 
 
 
