@@ -17,10 +17,10 @@
 
             <div class="container__cover" >
                 <div class="container__info">
-                    <h1>Servicio Tecnico</h1>
-                    <h2 class="mt-2">Arco Iris</h2>
-                    <p class="fs-5">Somos una empresa dedicada al mantenimiento y reparacion de Heladeras, Aire Acondicionado y Electricidad</p>
-                    <input type="button" value="Contactanos">
+                    <h1 class="m-4">Servicio Tecnico</h1>
+                    <h2 class=" m-4">Arco Iris</h2>
+                    <p class="fs-5 m-4">Somos una empresa dedicada al mantenimiento y reparacion de Heladeras, Aire Acondicionado y Electricidad</p>
+                    <input type="button" value="Contactanos" class="m-4">
                 </div>
                 <div class="container__vector">
                     <img src="../../assets/apoyo-tecnico.png" alt="servicio tecnicos">
@@ -483,6 +483,8 @@ place-items: center;
     .container__vector img{
         width: 500px;
     }
+
+
 }
 @media screen and (min-width: 759px){
     .container__imagen img{
@@ -541,8 +543,9 @@ place-items: center;
 @media screen and (max-width:577px){
     .container__puente{
       font-size: 40px;
+
     }
-    
+
 }
 
 @media screen and (max-width:368px){
@@ -551,6 +554,7 @@ place-items: center;
     }
     
 }
+
 
 
 
