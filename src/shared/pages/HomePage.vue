@@ -44,75 +44,98 @@ Bienvenido a Arcoiris
 
 <div class="w-100 ">
       
-        <div class="row container__cards row-cols-1 row-cols-md-2 row-cols-lg-4">
-            <div class="col mb-4 mt-4">
-                <div class="card">
-                    <img class="card-img-top" src="../../assets/heladera.png" alt="">
-  
-                    <div class="card-body">
-                        <h5 class="card-title">  Reparacion y mantenimiento de frigoríficos</h5>     
-  
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                           more
-                        </a>
-                        <a href="#" class="btn btn-outline-secondary btn-sm">
-                            <i class="far fa-heart"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4 mt-4">
-                <div class="card">
-                  
-  
+        <div class="row container__cards row-cols-1  row-cols-sm-2 row-cols-md-3 row-cols-lg-4 col-xl-4 mb-5">
+   
+
+
+
+
+            <div class="col  mb-4 mt-4">
                 
-                   
-  
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                          <img class="card-img-top" src="../../assets/aire.jpg" alt="">
+                
+                <div class="card tarjeta m-auto ">
+
+                        <a href="#" class="btn  custom-bg btn-sm h-100 border-none">
+                          <img class="card-img-top imagen" src="../../assets/heladera.png" alt="heladera">
                            <div class="card-body">
-                        <h5 class="card-title">Instalacion de 
-                        Aire Acondicionado</h5>  
+                        <h5 class="card-title py-3 px-2 text-white">Reparacion y mantenimiento de frigoríficos</h5>  
                     </div>
                         </a>
                     
                   
                 </div>
             </div>
-              <div class="col mb-4 mt-4">
-                <div class="card">
-                    <img class="card-img-top" src="../../assets/apoyo-tecnico.png" alt="">
-  
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                         aaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                        </p>
-  
-                        <a href="#" class="btn btn-primary">
-                            Card link
-                        </a>
-                      
-                    </div>
-                </div>
-            </div>
+
+
+
+
+
+
+
+
             <div class="col mb-4 mt-4">
-                <div class="card">
-                    <img class="card-img-top" src="../../assets/apoyo-tecnico.png" alt="">
-  
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          adasdsd
-                        </p>
-                          
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                            Card link
-                        </a>
-                        <a href="#" class="btn btn-outline-secondary btn-sm">
-                            <i class="far fa-heart"></i></a>
+                
+                
+                <div class="card tarjeta  m-auto">
+
+                        <a href="#" class="btn  custom-bg btn-sm h-100 border-none">
+                          <img class="card-img-top imagen" src="../../assets/aire.jpg" alt="Aire Acondicionado">
+                           <div class="card-body">
+                        <h5 class="card-title py-3 px-2 text-white">Instalacion de Aire Acondicionado</h5>  
                     </div>
+                        </a>
+                    
+                  
                 </div>
             </div>
+
+
+
+
+
+            <div class="col mb-4 mt-4">
+                
+                 
+                <div class="card tarjeta  m-auto">
+
+                        <a href="#" class="btn  custom-bg btn-sm h-100 border-none">
+                          <img class="card-img-top imagen" src="../../assets/electricidad.jpg" alt="electricidad">
+                           <div class="card-body">
+                        <h5 class="card-title py-3  px-2 text-white">Instalaciones Electricas</h5>  
+                    </div>
+                        </a>
+                    
+                  
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="col mb-4 mt-4">
+                
+                
+                <div class="card tarjeta m-auto">
+
+                        <a href="#" class="btn  custom-bg btn-sm h-100 border-none">
+                          <img class="card-img-top imagen" src="../../assets/inflables.jpg" alt="Aire Acondicionadsso">
+                           <div class="card-body">
+                        <h5 class="card-title py-3 px-2  text-white">Otros servicios</h5>  
+                    </div>
+                        </a>
+                    
+                  
+                </div>
+            </div>
+
+
+
+
+
+
         </div>
     </div>
 
@@ -172,7 +195,19 @@ Bienvenido a Arcoiris
     text-decoration: none;
     list-style: none;
 }
+.custom-text {
+  color: white;
+  transition: color 0.3s;
+}
 
+.custom-bg{
+    background:#000000;
+  
+}
+
+.custom-bg:hover{
+    background:#2196f3;;
+}
 .container_all{
     position: relative;
     right: 0;
@@ -332,18 +367,31 @@ nav ul li a{
     width: 100%;
 }
 .container__cards{
-    border: #000000 1px solid;
+
     height: 100% ;
+    background:#ffffff;
     width: 100%;
     display:flex;
 justify-content: center;
-align-self: start;
+align-self: center;
 place-items: center;
 
 
 
 }
+.tarjeta{
+    width: 400px;
+    height: 450px;
+ background: #000000;
+ border:#000000 1px solid;
+ 
 
+}
+
+.imagen{
+    width: 100%;
+    height: 360px;
+}
 @keyframes w1 {
     0%{
         margin-left: 0;
@@ -478,6 +526,37 @@ place-items: center;
     }
 }
 
+@media(max-height:1609px){
+    .tarjeta{
+    width: 300px;
+    height: 450px;
+ background: #986464;
+
+}
+
+
+}
+@media(max-height:1214px){
+    .tarjeta{
+    width: 250px;
+    height: 460px;
+ background: #986464;
+
+}
+
+
+}
+@media(min-height:572px){
+    .tarjeta{
+    width: 90%;
+
+    height: 460px;
+ background: #986464;
+
+}
+
+
+}
 @media screen and (max-width: 920px){
 
     .container__vector img{
@@ -554,7 +633,6 @@ place-items: center;
     }
     
 }
-
 
 
 
