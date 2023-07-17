@@ -302,7 +302,7 @@ nav ul li a{
 
 .bg_color{
     width: 100%;
-    height: 70%;
+    height: 100%;
     background: #2196f3;
     position: absolute;
     top: 0;
