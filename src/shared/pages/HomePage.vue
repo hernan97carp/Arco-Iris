@@ -39,7 +39,82 @@
                 <div class=" container__puente d-flex justify-content-center"><span>
 Bienvenido a Arcoiris
 </span>
+
 </div>
+
+<div class="w-100 ">
+      
+        <div class="row container__cards row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col mb-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/heladera.png" alt="">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">  Reparacion y mantenimiento de frigoríficos</h5>     
+  
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                           more
+                        </a>
+                        <a href="#" class="btn btn-outline-secondary btn-sm">
+                            <i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/aire.jpg" alt="">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Instalacion de Aire Acondicionado</h5>
+                   
+  
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        <a href="#" class="btn btn-outline-secondary btn-sm">
+                            <i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+              <div class="col mb-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/apoyo-tecnico.png" alt="">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                         aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        </p>
+  
+                        <a href="#" class="btn btn-primary">
+                            Card link
+                        </a>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/apoyo-tecnico.png" alt="">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          adasdsd
+                        </p>
+                          
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        <a href="#" class="btn btn-outline-secondary btn-sm">
+                            <i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 <Footer>
             <div class="container__footer">
@@ -251,6 +326,22 @@ nav ul li a{
 .w2{
     animation: w2 7s linear -.125s infinite, desplazamiento 7s ease -.125s infinite;
     opacity: 0.5;
+}
+
+.card__seccion{
+    width: 100%;
+}
+.container__cards{
+    border: #000000 1px solid;
+    height: 100% ;
+    width: 100%;
+    display:flex;
+justify-content: center;
+align-self: start;
+place-items: center;
+
+
+
 }
 
 @keyframes w1 {
