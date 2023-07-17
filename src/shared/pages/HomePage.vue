@@ -115,25 +115,6 @@ Bienvenido a Arcoiris
 
 
 
-            <div class="col mb-4 mt-4">
-                
-                
-                <div class="card tarjeta m-auto">
-
-                        <a href="#" class="btn  custom-bg btn-sm h-100 border-none">
-                          <img class="card-img-top imagen" src="../../assets/inflables.jpg" alt="Aire Acondicionadsso">
-                           <div class="card-body">
-                        <h5 class="card-title py-3 px-2  text-white">Otros servicios</h5>  
-                    </div>
-                        </a>
-                    
-                  
-                </div>
-            </div>
-
-
-
-
 
 
         </div>
@@ -156,7 +137,7 @@ Bienvenido a Arcoiris
                     <a href="#">Heladeras</a>
                     <a href="#">Aire Acondicionado</a>
                     <a href="#">Electricidad</a>
-                    <a href="#">Inflables</a>
+            
                 </div>
 
                 <div class="box__footer">
