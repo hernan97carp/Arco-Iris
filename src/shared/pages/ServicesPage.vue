@@ -22,7 +22,20 @@
 
 
 </div>
-
+<ul class="nav justify-content-around">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Heladeras</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Electricidad</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Aire Acondicionado</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Inflables</a>
+  </li>
+</ul>
 
 
 </div>

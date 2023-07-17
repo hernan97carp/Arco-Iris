@@ -17,19 +17,69 @@
 
             <div class="container__cover" >
                 <div class="container__info">
-                    <h1>BUILD YOUR</h1>
-                    <h2>BUSINESS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut impedit ea debitis ab, amet ipsa ipsum odio magnam voluptatem dicta praesentium obcaecati facilis, nulla fugiat itaque repellendus eaque tempora.</p>
-                    <input type="button" value="Get Started">
+                    <h1>Servicio Tecnico</h1>
+                    <h2 class="mt-2">Arco Iris</h2>
+                    <p class="fs-5">Somos una empresa dedicada al mantenimiento y reparacion de Heladeras, Aire Acondicionado y Electricidad</p>
+                    <input type="button" value="Contactanos">
                 </div>
                 <div class="container__vector">
-                    <img src="../../assets/undraw_Code_thinking_re_gka2.svg" alt="">
+                    <img src="../../assets/apoyo-tecnico.png" alt="servicio tecnicos">
                 </div>
             </div>
  
+     
 
 </div>
 
+
+<div class="container__imagen">
+                    <img src="../../assets/apoyo-tecnico.png" alt="servicio tecnicos">
+                 
+                </div>
+                <div class=" container__puente d-flex justify-content-center"><span>
+Bienvenido a Arcoiris
+</span>
+</div>
+
+<Footer>
+            <div class="container__footer">
+
+                <div class="box__footer">
+                    <div class="logo">
+                        <img src="Images/logo-magtimus.png" alt="">
+                    </div>
+                    <div class="terms">
+                    Brindamos servicios de reparacion y mantenminento de Heladeras, Aire Acondicionado y instalaciones Electricas desde 2017 en Argentina, Mendoza.
+                    </div>
+                </div>
+
+                <div class="box__footer">
+                    <h2>Servicios</h2>
+                    <a href="#">Heladeras</a>
+                    <a href="#">Aire Acondicionado</a>
+                    <a href="#">Electricidad</a>
+                    <a href="#">Inflables</a>
+                </div>
+
+                <div class="box__footer">
+                    <h2>Localidad</h2>
+                    <a href="#">Argentina,Mendoza</a>
+                        
+                </div>
+
+                <div class="box__footer">
+                    <h2>Redes Sociales</h2>
+                    <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-twitter-square"></i> WhatsApp</a>
+                   
+                </div>
+            </div>
+
+            <div class="box__copyright">
+                <hr>
+                <p>Todos los derechos reservados © 2023 <b>Arco Iris</b></p>
+            </div>
+        </Footer>
 
 
     </div>
@@ -52,6 +102,7 @@
     position: relative;
     right: 0;
     transition: all 300ms;
+    background: white;
 }
 .bg__color{
     width: 100%;
@@ -237,11 +288,8 @@ nav ul li a{
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    position: relative;
+   
 
-    background-image: url(../../assets/background-cover.svg);
-    background-size: cover;
-    background-position: bottom;
 }
 
 
@@ -293,13 +341,38 @@ nav ul li a{
 }
 
 .container__vector img{
-    position: absolute;
-    bottom: 10px;
+   
+    top: 0px;
+    bottom: 40px;
     right: 0px;
-    width: 600px;
+    width: auto;
+    height: auto;
     transition: all 300ms;
     animation: move_vector 6s ease-in-out infinite;
 }
+
+.container__imagen img{
+      width: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 50px;
+ transition: all 300ms;
+    animation: move_vector 6s ease-in-out infinite;
+
+    
+    
+}
+.container__puente{
+    font-size: 60px;
+    font-weight: 900;
+    color: hsl(0, 100%, 100%);
+    background: #000000;
+    margin-bottom: 50px;
+   
+    }
 
 @keyframes move_vector{
     0%{
@@ -319,6 +392,17 @@ nav ul li a{
         width: 500px;
     }
 }
+@media screen and (min-width: 759px){
+    .container__imagen img{
+        transform: scale(0);
+        animation: none;
+        position: absolute;
+     
+    
+    
+    }
+}
+
 
 @media screen and (max-width: 760px){
 
@@ -359,11 +443,22 @@ nav ul li a{
         animation: none;
     }
 
+
 }
 
+@media screen and (max-width:577px){
+    .container__puente{
+      font-size: 40px;
+    }
+    
+}
 
-
-
+@media screen and (max-width:368px){
+    .container__puente{
+      font-size: 30px;
+    }
+    
+}
 
 
 

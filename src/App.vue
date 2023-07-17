@@ -12,7 +12,7 @@ import { routeLinks } from './router/link-routes';
     
 
       <NavBar 
-        title="BreakingBad"
+        title="ArcoIris"
         :links="routeLinks"
       />
 
