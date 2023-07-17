@@ -313,7 +313,7 @@ nav ul li a{
     width: 6000px;
     height: 100%;
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 0;
     background-image: url(../../assets/wd1.svg);
     background-position: bottom;
